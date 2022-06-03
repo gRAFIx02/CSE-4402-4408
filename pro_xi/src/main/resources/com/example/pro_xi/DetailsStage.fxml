@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="321.0" prefWidth="662.0" style="-fx-background-color: #ccffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pro_xi.DetailsControllers">
+   <children>
+      <ImageView fx:id="playerpicview" fitHeight="202.0" fitWidth="257.0" layoutX="40.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../java/ClubImages/Messi.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="playernm" alignment="CENTER" layoutX="25.0" layoutY="247.0" prefHeight="30.0" prefWidth="258.0" text="PLAYER NAME">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="331.0" layoutY="39.0" prefHeight="18.0" prefWidth="131.0" text="Position">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="331.0" layoutY="67.0" prefHeight="18.0" prefWidth="131.0" text="Market Value">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="331.0" layoutY="93.0" prefHeight="18.0" prefWidth="131.0" text="Salary">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="331.0" layoutY="119.0" prefHeight="18.0" prefWidth="131.0" text="Goals">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="331.0" layoutY="148.0" prefHeight="18.0" prefWidth="131.0" text="Assists">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="331.0" layoutY="174.0" prefHeight="18.0" prefWidth="131.0" text="Country">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="331.0" layoutY="200.0" prefHeight="18.0" prefWidth="131.0" text="Height">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="jerseynm" alignment="CENTER" layoutX="22.0" layoutY="287.0" prefHeight="27.0" prefWidth="257.0" text="JerseyNumber">
+         <font>
+            <Font name="Comic Sans MS Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="posnm" alignment="CENTER" layoutX="448.0" layoutY="39.0" prefHeight="18.0" prefWidth="208.0" text="label">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="valnm" alignment="CENTER" layoutX="448.0" layoutY="67.0" prefHeight="18.0" prefWidth="208.0" text="Label">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="salnm" alignment="CENTER" layoutX="448.0" layoutY="93.0" prefHeight="18.0" prefWidth="208.0" text="Label">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="golnm" alignment="CENTER" layoutX="448.0" layoutY="119.0" prefHeight="18.0" prefWidth="208.0" text="Label">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="assistnm" alignment="CENTER" layoutX="448.0" layoutY="148.0" prefHeight="18.0" prefWidth="208.0" text="Label">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="countrynm" alignment="CENTER" layoutX="448.0" layoutY="174.0" prefHeight="18.0" prefWidth="208.0" text="Label">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="heightnm" alignment="CENTER" layoutX="448.0" layoutY="200.0" prefHeight="18.0" prefWidth="208.0" text="Label">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="clubnm" alignment="CENTER" layoutX="25.0" layoutY="3.0" prefHeight="44.0" prefWidth="258.0" text="Club Name">
+         <font>
+            <Font name="Comic Sans MS Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="283.0" layoutY="272.0" mnemonicParsing="false" onAction="#editbutton" text="Edit Player">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="577.0" layoutY="272.0" mnemonicParsing="false" onAction="#closebutton" prefHeight="26.0" prefWidth="72.0" text="Close">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="469.0" layoutY="272.0" mnemonicParsing="false" onAction="#delbutton" text="Delete Player">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="377.0" layoutY="272.0" mnemonicParsing="false" onAction="#sellbutton" text="Sell Player">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
